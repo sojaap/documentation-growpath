@@ -1,0 +1,98 @@
+{
+  "info": {
+    "_postman_id": "95e4a380-771a-4b6e-8a23-2732db458509",
+    "name": "Grow-Path API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "20180443",
+    "_collection_link": "https://go.postman.co/collection/20180443-95e4a380-771a-4b6e-8a23-2732db458509?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GrowPath-API",
+      "item": [
+        {
+          "name": "Search-Skill&Course",
+          "item": [
+            {
+              "name": "User GET",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin Create POST",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin Update PUT",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin Delete DELETE",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin GET",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Progress Tracking",
+          "item": [
+            {
+              "name": "User Progress Update PATCH",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "User Progress GET",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin Progress POST",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            },
+            {
+              "name": "Admin Progress GET",
+              "request": {
+                "method": "GET",
+                "header": []
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
