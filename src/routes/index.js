@@ -2,6 +2,10 @@ const express = require('express');
 const router = express.Router();
 const createRoutes = require('./baseRoutes');
 
+const questionsRoutes = require("./questionsRoutes");
+const assessmentRoutes = require("./assessmentRoutes");
+const bookmarkRoutes = require("./bookmarkRoutes");
+
 router.use('/users', createRoutes(require('../controllers/userController')));
 //router.use('/admin/career-paths', createRoutes(require('../controllers/careerController')));
 router.use('/career-paths', createRoutes(require('../controllers/careerController')));
@@ -16,4 +20,8 @@ router.use('/progress', createRoutes(require('../controllers/progressController'
 router.use('/bookmarks', createRoutes(require('../controllers/bookmarkController')));
 router.use('/auth', require('./authRoutes'));
 
+router.use("/admin/questions", questionsRoutes);
+router.use("/user/assessments", assessmentRoutes);
+router.use("/user/bookmarks", bookmarkRoutes);
+router.use("/admin/bookmarks", bookmarkRoutes);
 module.exports = router;
